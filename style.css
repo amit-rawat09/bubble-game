@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(90, 118, 212);
+
+}
+#pannel {
+  overflow: hidden;
+  height: 83%;
+  width: 80%;
+  border-radius: 12px;
+  background-color: aliceblue;
+}
+#ptop {
+  padding: 0px 20%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(30, 60, 160);
+}
+.elem {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  color: rgb(82, 116, 227);
+  padding: 10px 20px;
+  font-weight: 900;
+  font-size: 25px;
+  background-color: white;
+  border-radius: 5px;
+}
+#pbtm {
+  width: 100%;
+  height: calc(100% - 100px);
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.bubble {
+  width: 60px;
+  font-weight: 800;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 60px;  background-color: rgb(30, 60, 160);
+
+  border-radius: 50%;
+  color: rgb(255, 255, 255);
+}
+.bubble:hover {
+  background-color: rgb(15, 34, 99);
+  cursor: pointer;
+}
+#over{
+    display: block;
+    font-weight: 700;
+    font-size: 5vw;
+  color: rgb(30, 60, 160);
+
+}
+#finnal{
+  color: green;
+  font-weight: 900;
+  font-size: 2em;
+  margin: 20px 104px;
+}
